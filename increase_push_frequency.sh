@@ -1,5 +1,5 @@
   #!/bin/bash
-  for i in $(seq 1 $(shuf -i 10-30 -n 1))
+  for i in $(seq 1 $(shuf -i 5-10 -n 1))
   do
 	echo "\n"
     echo item: $i
