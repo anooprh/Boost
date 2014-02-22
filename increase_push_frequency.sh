@@ -16,7 +16,7 @@
 	
 #	x= curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence    
 #    y = "asdf"	
-	echo curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence > some.txt	
+	curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence > some.txt	
 	git add .
     git commit -F some.txt
     git push
