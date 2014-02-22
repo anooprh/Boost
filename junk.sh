@@ -8,3 +8,4 @@ sample 2
 sample 3
 sample 4
 sample 5
+A civil typewriter counts the discontinued rhyme.

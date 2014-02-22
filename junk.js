@@ -8,3 +8,4 @@ sample 2
 sample 3
 sample 4
 sample 5
+The starved thief migrates around the reformed worker.
