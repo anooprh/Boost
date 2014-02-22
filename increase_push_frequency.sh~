@@ -14,8 +14,9 @@
 #    curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence >> junk.scala
 #    curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence >> junk.jl
 	
-#	x= curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence
-    git add .
-    git commit -m "sfd"
+	x= curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence
+	echo $x    
+	git add .
+    git commit -m 
     git push
   done
