@@ -17,6 +17,6 @@
 	x= curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence
 	echo $x    
 	git add .
-    git commit -m $((x))
+    git commit -m "$x"
     git push
   done
