@@ -15,8 +15,9 @@
 #    curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence >> junk.jl
 	
 	x= curl -H "Content-Length: 0" -X POST http://watchout4snakes.com/wo4snakes/Random/NewRandomSentence    
-	echo $desc > some.txt	
+    y = "asdf"	
+	echo $y > some.txt	
 	git add .
-    git commit -F 
+    git commit -F some.txt
     git push
   done
